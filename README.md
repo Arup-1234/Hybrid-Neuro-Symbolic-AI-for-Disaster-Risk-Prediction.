@@ -7,32 +7,32 @@ The project also integrates GIS-based visualization to support spatial risk anal
 
 🎯 Objectives
 
-Predict short-term tropical cyclone intensity (maximum wind speed)
+1. Predict short-term tropical cyclone intensity (maximum wind speed)
 
-Combine deep learning with symbolic physical constraints
+2. Combine deep learning with symbolic physical constraints
 
-Compare neural-only and neuro-symbolic models
+3. Compare neural-only and neuro-symbolic models
 
-Visualize cyclone tracks, wind categories, and prediction errors using GIS
+4. Visualize cyclone tracks, wind categories, and prediction errors using GIS
 
 🧠 Methodology
-Neural Component
+ Neural Component
 
-Uses a Gated Recurrent Unit (GRU) model
+1. Uses a Gated Recurrent Unit (GRU) model
 
-Learns temporal patterns from cyclone sequences
+2. Learns temporal patterns from cyclone sequences
 
-Input features include latitude, longitude, wind speed, and pressure
+3. Input features include latitude, longitude, wind speed, and pressure
 
 Symbolic Component
 
-Incorporates soft physical constraints:
+1. Incorporates soft physical constraints:
 
-Non-negative wind speed
+2. Non-negative wind speed
 
-Limited intensity change between time steps
+3. Limited intensity change between time steps
 
-Constraints are added as penalty terms to the loss function
+4. Constraints are added as penalty terms to the loss function
 
 🗂 Dataset
 
@@ -56,24 +56,25 @@ Create error heatmaps showing spatial model uncertainty
 
 📊 Evaluation Metrics
 
-Mean Absolute Error (MAE)
+1. Mean Absolute Error (MAE)
 
-Root Mean Square Error (RMSE)
+2. Root Mean Square Error (RMSE)
 
-Accuracy within operational tolerance
+3. Accuracy within operational tolerance
 
-Spatial error visualization (heatmaps)
+4. Spatial error visualization (heatmaps)
+
 📌 Applications
 
-Disaster risk assessment
+1. Disaster risk assessment
 
-Early warning systems
+2. Early warning systems
 
-Climate research
+3. Climate research
 
-Emergency planning support
+4. Emergency planning support
 
-📄 Research Paper Title
+ Title
 
 Hybrid Neuro-Symbolic Deep Learning for Tropical Cyclone Intensity Prediction and GIS-Based Risk Visualization
 
